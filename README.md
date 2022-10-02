@@ -4,4 +4,4 @@
     -   [Vim and NeoVim](<vim and nvim>)
 
 -   [Wireguard](./wireguard)
--   [Proxy]('./proxy')
+-   [Proxy]('proxy')
