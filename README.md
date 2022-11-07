@@ -6,3 +6,5 @@
 
 -   [Wireguard](./wireguard)
 -   [Proxy](./proxy)
+-   [Другое](./other)
+

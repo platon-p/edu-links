@@ -7,6 +7,7 @@ grep -r 'PHRASE' .
 ```
 
 Можно для удобства отправить это в bat (или less)
+
 ```bash
 grep -r 'PHRASE' . | bat
 ```
@@ -14,9 +15,7 @@ grep -r 'PHRASE' . | bat
 ### Распаковка tar.gz архива
 
 ```bash
-tar -xzf archive.tar.gz <drectory> 
-
-# если указать '.', будет распаковка в теукущую директорию
+tar -xzf archive.tar.gz
 ```
 
 ### Открытие туннеля (инфа идет с локалки)
@@ -37,4 +36,18 @@ sudo iptables -I INPUT -p tcp -m tcp --dport PORT -j ACCEPT
 
 ```bash
 sudo ss -lptn 'sport = :PORT'
+```
+
+### Убить процесс
+
+```bash
+pkill PROCESS_ID
+```
+
+### Бан ip-адреса при ssh подключении
+
+После того как мы узнали IPшник, можем прописать следующее
+
+```bash
+echo 'ssd: IP' >> /etc/hosts.deny
 ```
