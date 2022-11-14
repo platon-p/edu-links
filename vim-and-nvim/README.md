@@ -20,3 +20,8 @@ vim ~/.vimrc
 ## Темы
 
 [Интересный ресурс](https://vimcolorschemes.com)
+
+## Конфиги
+
+[Мой lua пресет](./config)
+Не забудьте установить packer

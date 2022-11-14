@@ -2,9 +2,10 @@
 
 -   [Простые команды](./simple_commands)
 -   Консольные утилиты
-    -   [Vim and NeoVim](<vim and nvim>)
+    -   [Vim and NeoVim](./vim-and-nvim)
 
 -   [Wireguard](./wireguard)
 -   [Proxy](./proxy)
+-   [Nginx](./nginx)
 -   [Другое](./other)
 
