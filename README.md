@@ -7,5 +7,6 @@
 -   [Wireguard](./wireguard)
 -   [Proxy](./proxy)
 -   [Nginx](./nginx)
+-   [Docker](./docker)
 -   [Другое](./other)
 
